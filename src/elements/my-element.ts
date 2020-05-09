@@ -56,10 +56,6 @@ export class MyElement extends LitElement {
   private _onClick() {
     this.count++;
   }
-
-  foo(): string {
-    return 'foo';
-  }
 }
 
 declare global {

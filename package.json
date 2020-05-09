@@ -6,6 +6,7 @@
   "module": "my-element.js",
   "type": "module",
   "scripts": {
+    "start": "npm run build && npm run serve",
     "build": "tsc",
     "build:watch": "tsc --watch",
     "clean": "rimraf build",
